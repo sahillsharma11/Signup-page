@@ -1,0 +1,44 @@
+h1{
+text-align: center;
+padding: 10px 10px;
+}
+label{
+font-size: 20px;
+font-weight: bolder;
+margin: 10px 0px;
+font-family: sans-serif;
+}
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 30%;
+}
+.button{
+background-color: orange;
+color: white;
+padding: 2%;
+font-size: 22px;
+border: 0px;
+cursor: pointer;
+margin-top: 10px;
+
+}
+input{
+    padding: 2%;
+}
+
+@media (max-width:400px) {
+form{
+width: 80%;
+
+}
+    
+}
